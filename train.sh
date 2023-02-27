@@ -1,0 +1,1 @@
+openai api fine_tunes.create -m "davinci" -t "train_prepared_train.jsonl" -v "train_prepared_valid.jsonl" --compute_classification_metrics --classification_n_classes 3
